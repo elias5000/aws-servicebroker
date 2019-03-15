@@ -1,0 +1,9 @@
+global:
+  parameters: {}
+  regions:
+    - us-east-1
+
+plans:
+  dev:
+    parameters:
+      AccessCidr: "10.0.0.0/16"
